@@ -1,0 +1,73 @@
+body{
+    background-color: burlywood;
+}
+.title{
+   
+    background-color: brown;
+    border: 1px solid yellow;
+}
+.title h1{
+    text-align: center;
+
+}
+
+.subtitle{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.subtitle div {
+    
+    min-width:80px;
+    min-height:50px;
+    cursor: pointer;
+    border: 1px solid black;
+    margin: 10px;
+
+}
+.subtitle div img{
+    padding: 5px;
+    max-width:80px;
+    max-height:80px;
+    
+}
+.container{
+    background-color: violet;
+    border: 2px solid white;
+}
+
+.content{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    width: 100%;
+
+}
+
+.content div{
+    border: 1px solid black;
+    display: flex;
+    justify-content:center;
+    width: 50%;
+    
+}
+
+.desc{
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    margin: 40px 40px 40px 0px;
+}
+.img{
+
+    margin: 40px 0px 40px 40px;
+}
+
+
+
+.footer{
+    text-align: right;
+
+}
