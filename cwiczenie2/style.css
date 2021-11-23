@@ -10,7 +10,6 @@ body{
     text-align: center;
 
 }
-
 .subtitle{
     border: 2px solid black;
     padding: 10px 0;
@@ -23,7 +22,6 @@ body{
     border: 2px dashed pink;
     width: 70px;
     height: 70px;
-
 }
 .subtitle div img{
     max-width:100%;
@@ -51,10 +49,7 @@ body{
     flex:8;
 }
 
-
-
 .footer{
     text-align: right;
     padding:15px;
-
 }
