@@ -33,22 +33,32 @@ body{
     display: flex;
     justify-content: center;
     padding: 20px;
+    min-height: 150px;
+    min-width: 150px;
 }
 .content div{
     border: 2px dashed rebeccapurple;
-    min-height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 300px;
+    min-width: 100px;
+    
 }
 
 .desc{
-   flex:6;
+   flex:3;
+}
+.content img{
+    padding: 20px;
+    max-height: 100%;
+    max-width: 100%;
+    
 }
 .picture{
-    flex:8;
-}
 
+    flex:4;
+}
 .footer{
     text-align: right;
     padding:15px;
