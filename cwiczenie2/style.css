@@ -45,10 +45,10 @@ body{
 }
 
 .desc{
-   flex:7;
+   flex:6;
 }
 .picture{
-    flex:8;
+    flex:7;
 }
 
 
