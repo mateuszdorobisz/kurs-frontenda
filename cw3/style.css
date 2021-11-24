@@ -39,6 +39,11 @@
 
   }
 
+  div p{
+    margin: -20px;
+
+  }
+
   .wykresX, .wykresY{
     border: 2px dashed red;
     display: flex;
@@ -49,7 +54,9 @@
   .wykresX div{
     border: 1px solid black;
     width: 5%;
-  }
+    background-color: red;
+    text-align:center;
+    }
 
 .wykresX div:nth-child(1){height:1cm;}
 .wykresX div:nth-child(2){height:2cm;}
