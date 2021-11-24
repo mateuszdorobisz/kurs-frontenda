@@ -1,0 +1,97 @@
+/* DO USTAWIENIA SŁUPKA */
+:root{font-size:15px;}
+/* PIERWSZY KONTENER */
+.header{
+  border:2px solid #000;
+  display:flex;
+  /* PRZEŁÓŻ TREŚĆ HEADERA DO PRAWEJ */
+  justify-content: flex-end;
+  /* ZRÓB ODSTĘP Z GÓRY I Z DOŁU (15px) */
+  padding: 15px 0;
+}
+.nav{
+  border:2px solid #000;
+}
+.menu{
+  display:flex;
+  /* ROZŁÓŻ DZIECI .MENU RÓWNO */
+  justify-content: space-around;
+}
+/* PRZYCISKI W MENU */
+.menu a{
+  border:2px solid #000;
+  /* PROPORCJONALNIE WYPEŁNIJ RODZICA */
+  flex:1;
+  /* WYŚWIETLAMY TEXT NA ŚRODKU */
+  text-align: center;
+  /* POZBYCIE SIĘ POKREŚLENIA Z LINKU */
+  text-decoration: none;
+  /* PRZYWRÓĆ KOLOR RODZICA */
+  color:inherit;
+}
+/* OBRAZEK DOMYŚLNIE */
+.sprite{
+  background-image: url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw1/logo_sprites.jpg?raw=true);
+  width:500px;
+  height:200px;
+}
+/* OBRAZEK PO NAKIEROWANIU MYSZKĄ */
+.sprite:hover{
+  background-position: 0 -200px;
+}
+/* OBRAZEK PO KLIKNIĘCIU */
+.sprite:active{
+  background-position: 0 -400px;
+}
+/* OGÓLNY KONTENER I H2 WE WSZYSTKIM */
+.container{
+  border:2px solid #000;
+}
+.container h2{
+  padding-left:20px;
+}
+
+/* CHARTS 1*/
+.chartX,.chartY{
+  border:2px solid #000;
+  display:flex;
+  justify-content: space-around;
+}
+/* SŁUPKI PIONOWE */
+.chartX div{
+  border:2px solid #000;
+  width:10%;
+}
+.chartX div:nth-child(1){height:2in;}
+.chartX div:nth-child(2){height:2cm;}
+.chartX div:nth-child(3){height:2mm;}
+.chartX div:nth-child(4){height:2pt;}
+.chartX div:nth-child(5){height:2px;}
+
+/* CHART 2 */
+.chartY{
+  flex-direction: column;
+}
+.chartY div{
+  border:2px solid #000;
+  height:36px;
+  /* POROZBIJAJ SŁUPKI O 18PX Z GÓRY I DOŁU (0 PRAWO LEWO) */
+  margin: 18px 0;
+}
+.chartY div:nth-child(1){width:25vw;}
+.chartY div:nth-child(2){width:20%;}
+.chartY div:nth-child(3){width:30em;}
+.chartY div:nth-child(4){width:40rem;}
+.chartY div:nth-child(5){width:10rem;}
+
+/* CZCIONKI */
+.fonts{
+  /* PRZESUŃ DZIECI DO PRAWEJ STRONY */
+  display:flex;
+  justify-content: flex-end;
+}
+.em{
+  font-size:2em;
+  color:red;
+  display:flex;
+}
