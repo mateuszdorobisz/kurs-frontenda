@@ -1,0 +1,89 @@
+:root{font-size:18px;}
+
+.main{
+    border: 2px solid black;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0;
+}
+.nav{
+    border: 2px dashed green;
+}
+.tabelka{
+    display: flex;
+    justify-content: space-around;
+}
+.tabelka a{
+    border: 1px solid black;
+    flex: 2;
+    text-align: center;
+    text-decoration: none;
+    color: brown;
+}
+.logo{
+    background-image: url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw1/logo_sprites.jpg?raw=true);
+    width:500px;
+    height:200px;
+  }
+  .logo:hover{
+    background-position: 0 -200px;
+  }
+  
+  .logo:active{
+    background-position: 0 -400px;
+  }
+
+  .main2, .main3{
+    border: 2px solid black;
+    
+
+  }
+
+  .wykresX, .wykresY{
+    border: 2px dashed red;
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  .wykresX div{
+    border: 1px solid black;
+    width: 5%;
+  }
+
+.wykresX div:nth-child(1){height:1cm;}
+.wykresX div:nth-child(2){height:2cm;}
+.wykresX div:nth-child(3){height:3cm;}
+.wykresX div:nth-child(4){height:4cm;}
+.wykresX div:nth-child(5){height:5cm;}
+
+.wykresY div:nth-child(1){width:1cm;}
+.wykresY div:nth-child(2){width:2cm;}
+.wykresY div:nth-child(3){width:3cm;}
+.wykresY div:nth-child(4){width:4cm;}
+.wykresY div:nth-child(5){width:5cm;}
+
+.wykresY{
+   
+    flex-direction: column;
+}
+
+
+.wykresY div{
+    border: 1px solid black;
+    width: 10%;
+    margin: 10px 0;
+    height: 10px;
+   
+  }
+
+  .czcionki{
+    
+    display:flex;
+    justify-content: flex-end;
+  }
+  .em{
+    font-size:2em;
+    color:red;
+    display:flex;
+  }
