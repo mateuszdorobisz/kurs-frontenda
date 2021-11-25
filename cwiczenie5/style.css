@@ -69,4 +69,13 @@ nav{
 footer{
     display: flex;
     justify-content: right;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    width: 100%;
+}
+
+footer h4{
+color: blanchedalmond;
 }
