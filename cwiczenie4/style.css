@@ -1,6 +1,7 @@
-*{box-sizing: border-box;}
+*{box-sizing: border-box;
+    padding: 0;
+    margin: 0;}
 body{
-    margin: 0;
     height: 100vh;
     
 }
@@ -34,25 +35,21 @@ body{
 
 .container{
 border:2px dashed red;
-  min-height: 100vw;
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding-bottom: 60px;
 }
 .container div{
-    border:2px dashed blue;
-  width: 35vw;
-  height: 35vw;
+    background-size: cover;
+  
 }
 .slon {
     border:2px dashed red;
     width:40vw;
     height:40vw;
     position:relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 .button{
     background-color: #fff;
@@ -70,21 +67,21 @@ border:2px dashed red;
 
 .img1{
     background-image: url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw2/slon.jpg?raw=true);
-    background-size: cover;
+   
 }
     .img2{
         background-image: url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw2/nosorozec.jpg?raw=true);
-        background-size: cover;
+        
 }
 
 .img3{
     background-image: url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw2/lew.jpg?raw=true);
-    background-size: cover;
+    
 
 }
 .img4{
     background-image: url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw2/zebra.jpg?raw=true);
-    background-size: cover;
+  
 }
 .slon div{
     border:2px dashed blue;
@@ -93,12 +90,14 @@ border:2px dashed red;
   position: absolute;}
 
 
+
   .fixed{
     position: fixed;
     bottom: 0;
     width: 100%;
     border: 2px solid black;
     background-color: brown;
+    padding: 20px 0;
 }
 
 .fixed h2{
@@ -106,11 +105,11 @@ border:2px dashed red;
 }
 
 @media (max-width:720px){
-    .container, .slon{
+    .slon{
         width: 60vw;
         height: 60vw;
         margin-top: 20px;
-
+        margin-bottom: 60px;
     }
 
 
