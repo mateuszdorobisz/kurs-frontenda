@@ -44,7 +44,7 @@ nav{
     gap: 10px;
     
   }
-  .container a:nth-child(1){grid-area:b3;}
+  .container a:nth-child(1){grid-area:b3;background-color: blue;}
   .container a:nth-child(2){grid-area:b4;}
   .container a:nth-child(3){grid-area:b1;}
   .container a:nth-child(4){grid-area:b2;}
