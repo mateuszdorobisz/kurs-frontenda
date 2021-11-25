@@ -108,6 +108,7 @@ border:2px dashed red;
 @media (max-width:720px){
     .container, .slon{
         width: 60vw;
+        height: 60vw;
         margin-top: 20px;
 
     }
