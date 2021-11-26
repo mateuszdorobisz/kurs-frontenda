@@ -1,0 +1,237 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url(img/tlo-do-strony-internetowej.jpg);
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 2px solid black;
+  background-color: brown;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 10vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: rgba(255, 255, 255, 0.321);
+}
+
+.container {
+  border: 2px solid black;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  color: salmon;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main p {
+  padding: 20px;
+}
+
+main img {
+  max-width: 100%;
+}
+
+.container1 {
+  border: 2px solid black;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  color: #5e0c39;
+}
+
+.wsio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+aside div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  border: 3px solid black;
+  width: 90%;
+  background-color: #589656;
+}
+
+section {
+  padding: 1px 2%;
+  margin: 0 5%;
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+section h3 {
+  font-size: 30px;
+  background-color: yellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+section article .avatar {
+  background-color: #d6b315;
+  border: 2px solid #fff;
+  width: 10vw;
+  height: 10vw;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  font-size: 1.5em;
+}
+
+section article ::-webkit-input-placeholder {
+  color: firebrick;
+}
+
+section article :-ms-input-placeholder {
+  color: firebrick;
+}
+
+section article ::-ms-input-placeholder {
+  color: firebrick;
+}
+
+section article ::placeholder {
+  color: firebrick;
+}
+
+section article .comField {
+  background-color: #829142;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+section article .comField textarea {
+  background-color: #bec0b5;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  outline: 0;
+}
+
+section article .comField header {
+  background-color: #829142;
+  padding: 1%;
+  text-align: left;
+}
+
+section article .comField .comCont {
+  background-color: #829142;
+  padding: 1%;
+}
+
+footer .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  gap: 15px;
+  padding: 20px;
+  font-size: 2em;
+  background-color: rgba(94, 100, 90, 0.801);
+}
+
+footer a {
+  border: 2px solid white;
+  background-color: yellow;
+  color: black;
+}
+
+footer .desc {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+/*# sourceMappingURL=style.css.map */
