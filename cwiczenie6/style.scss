@@ -1,15 +1,14 @@
 *{box-sizing: border-box;}
 body{
     background-image: url(img/tlo-do-strony-internetowej.jpg);
-}
-
-header{
+    
+    header{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
-}
-nav{
+    }
+    nav{
     display: flex;
     border: 2px solid black;
     background-color: brown;
@@ -18,54 +17,47 @@ nav{
     height: 10vh;
     position: sticky;
     top: 0;
-}
-nav a{
+        a{
     text-decoration: none;
     color: black;
     font-size: large;
     font-weight: bold;
-}
-
-a:hover{
+    a:hover{
     background-color: rgba(255, 255, 255, 0.321);
   }
-
-.container{
-    border: 2px solid black;
-    flex: 2;
-    color: salmon;
-}
-main {
-    display: flex;
-    flex-direction: column;
-    
-}
-main p{
-    padding: 20px;
-}
-main img{
-    max-width:100%;
-  }
-
-.container1{
-    border: 2px solid black;
-    flex: 1;
-    color: rgb(94, 12, 57);
-}
-.wsio{
+        }
+    }   
+    .wsio{
     display: flex;
     padding-left: 40px;
     padding-right: 40px;
-}
-
-aside {
+    .container{
+            border: 2px solid black;
+             flex: 2;
+            color: salmon;
+            main {
+                display: flex;
+                flex-direction: column;
+            main p{
+                padding: 20px;
+            main img{
+                max-width:100%;
+            }
+            }
+            }
+    }
+    
+    .container1{
+    border: 2px solid black;
+    flex: 1;
+    color: rgb(94, 12, 57);
+    aside {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-}
-aside div{
+    aside div{
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -73,22 +65,24 @@ aside div{
     border: 3px solid black;
     width: 90%;
     background-color: rgb(88, 150, 86);
-}
-section{
+    }
+    }
+    }
+    }
+    section{
+    padding:1px 2%;
+    margin: 0 5%;
+    margin-top:10px;
+    font-size:1em;
     h3{
         font-size: 30px;
         background-color: yellow;
         display: flex;
         justify-content: center;
-    }
-    padding:1px 2%;
-    margin: 0 5%;
-    margin-top:10px;
-    font-size:1em;
     article{
       display:flex;
       margin-bottom:10px;
-      .avatar{
+    .avatar{
         background-color: rgb(214, 179, 21);
         border:2px solid #fff;
         width:10vw;
@@ -96,56 +90,53 @@ section{
         display:grid;
         place-items:center;
         font-size: 1.5em;
-      }
      ::placeholder{
          color: firebrick;
-     }
-      .comField{
+    .comField{
         background-color: rgb(130, 145, 66);
         flex:1;
-        textarea{
+    textarea{
           background-color: rgb(190, 192, 181);
           width: 100%;
           height:100%;
           padding:15px;
           outline:0;
-        
-        }
         header{
             background-color: rgb(130, 145, 66);
           padding:1%;
           text-align: left;
-        }
         .comCont{
-            background-color: rgb(130, 145, 66);
-          padding:1%;
+         background-color: rgb(130, 145, 66);
+        padding:1%;
         }
-      }
-  
+        }
+        }
+        }
+        }
+        }
+        }
+         }
     }
-  }
-
-  footer {
-    .socials{
-    display:flex;
-    justify-content: space-evenly;
-    gap:15px;
-    padding:20px;
-    font-size:2em;
-    background-color: rgba(94, 100, 90, 0.801);
-  }
-  a{
-      border: 2px solid white;
-      background-color: yellow;
-      color: black;
-  }
-  .desc{
-      background-color:black;
-      color: white;
-      font-size: 20px;
-      display: flex;
-      justify-content: right;
-  }
+    footer{
+        .socials{
+        display:flex;
+        justify-content: space-evenly;
+        gap:15px;
+        padding:20px;
+        font-size:2em;
+        background-color: rgba(94, 100, 90, 0.801);
+    a{
+        border: 2px solid white;
+        background-color: yellow;
+        color: black;
+    .desc{
+        background-color:black;
+        color: white;
+        font-size: 20px;
+        display: flex;
+        justify-content: right;
+    }
+    }
+    }
+    }   
 }
-
-   

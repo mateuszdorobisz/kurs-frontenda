@@ -7,7 +7,7 @@ body {
   background-image: url(img/tlo-do-strony-internetowej.jpg);
 }
 
-header {
+body header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20,7 +20,7 @@ header {
   padding: 20px;
 }
 
-nav {
+body nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -37,18 +37,26 @@ nav {
   top: 0;
 }
 
-nav a {
+body nav a {
   text-decoration: none;
   color: black;
   font-size: large;
   font-weight: bold;
 }
 
-a:hover {
+body nav a a:hover {
   background-color: rgba(255, 255, 255, 0.321);
 }
 
-.container {
+body .wsio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+body .wsio .container {
   border: 2px solid black;
   -webkit-box-flex: 2;
       -ms-flex: 2;
@@ -56,7 +64,7 @@ a:hover {
   color: salmon;
 }
 
-main {
+body .wsio .container main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -66,15 +74,15 @@ main {
           flex-direction: column;
 }
 
-main p {
+body .wsio .container main main p {
   padding: 20px;
 }
 
-main img {
+body .wsio .container main main p main img {
   max-width: 100%;
 }
 
-.container1 {
+body .wsio .container1 {
   border: 2px solid black;
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -82,15 +90,7 @@ main img {
   color: #5e0c39;
 }
 
-.wsio {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-aside {
+body .wsio .container1 aside {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -107,7 +107,7 @@ aside {
   width: 100%;
 }
 
-aside div {
+body .wsio .container1 aside aside div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -126,14 +126,14 @@ aside div {
   background-color: #589656;
 }
 
-section {
+body section {
   padding: 1px 2%;
   margin: 0 5%;
   margin-top: 10px;
   font-size: 1em;
 }
 
-section h3 {
+body section h3 {
   font-size: 30px;
   background-color: yellow;
   display: -webkit-box;
@@ -144,14 +144,14 @@ section h3 {
           justify-content: center;
 }
 
-section article {
+body section h3 article {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 10px;
 }
 
-section article .avatar {
+body section h3 article .avatar {
   background-color: #d6b315;
   border: 2px solid #fff;
   width: 10vw;
@@ -162,30 +162,48 @@ section article .avatar {
   font-size: 1.5em;
 }
 
-section article ::-webkit-input-placeholder {
+body section h3 article .avatar ::-webkit-input-placeholder {
   color: firebrick;
 }
 
-section article :-ms-input-placeholder {
+body section h3 article .avatar :-ms-input-placeholder {
   color: firebrick;
 }
 
-section article ::-ms-input-placeholder {
+body section h3 article .avatar ::-ms-input-placeholder {
   color: firebrick;
 }
 
-section article ::placeholder {
+body section h3 article .avatar ::placeholder {
   color: firebrick;
 }
 
-section article .comField {
+body section h3 article .avatar ::-webkit-input-placeholder .comField {
+  background-color: #829142;
+  -webkit-box-flex: 1;
+          flex: 1;
+}
+
+body section h3 article .avatar :-ms-input-placeholder .comField {
+  background-color: #829142;
+  -ms-flex: 1;
+      flex: 1;
+}
+
+body section h3 article .avatar ::-ms-input-placeholder .comField {
+  background-color: #829142;
+  -ms-flex: 1;
+      flex: 1;
+}
+
+body section h3 article .avatar ::placeholder .comField {
   background-color: #829142;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
 }
 
-section article .comField textarea {
+body section h3 article .avatar ::-webkit-input-placeholder .comField textarea {
   background-color: #bec0b5;
   width: 100%;
   height: 100%;
@@ -193,18 +211,75 @@ section article .comField textarea {
   outline: 0;
 }
 
-section article .comField header {
+body section h3 article .avatar :-ms-input-placeholder .comField textarea {
+  background-color: #bec0b5;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  outline: 0;
+}
+
+body section h3 article .avatar ::-ms-input-placeholder .comField textarea {
+  background-color: #bec0b5;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  outline: 0;
+}
+
+body section h3 article .avatar ::placeholder .comField textarea {
+  background-color: #bec0b5;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  outline: 0;
+}
+
+body section h3 article .avatar ::-webkit-input-placeholder .comField textarea header {
   background-color: #829142;
   padding: 1%;
   text-align: left;
 }
 
-section article .comField .comCont {
+body section h3 article .avatar :-ms-input-placeholder .comField textarea header {
+  background-color: #829142;
+  padding: 1%;
+  text-align: left;
+}
+
+body section h3 article .avatar ::-ms-input-placeholder .comField textarea header {
+  background-color: #829142;
+  padding: 1%;
+  text-align: left;
+}
+
+body section h3 article .avatar ::placeholder .comField textarea header {
+  background-color: #829142;
+  padding: 1%;
+  text-align: left;
+}
+
+body section h3 article .avatar ::-webkit-input-placeholder .comField textarea header .comCont {
   background-color: #829142;
   padding: 1%;
 }
 
-footer .socials {
+body section h3 article .avatar :-ms-input-placeholder .comField textarea header .comCont {
+  background-color: #829142;
+  padding: 1%;
+}
+
+body section h3 article .avatar ::-ms-input-placeholder .comField textarea header .comCont {
+  background-color: #829142;
+  padding: 1%;
+}
+
+body section h3 article .avatar ::placeholder .comField textarea header .comCont {
+  background-color: #829142;
+  padding: 1%;
+}
+
+body footer .socials {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -217,13 +292,13 @@ footer .socials {
   background-color: rgba(94, 100, 90, 0.801);
 }
 
-footer a {
+body footer .socials a {
   border: 2px solid white;
   background-color: yellow;
   color: black;
 }
 
-footer .desc {
+body footer .socials a .desc {
   background-color: black;
   color: white;
   font-size: 20px;
